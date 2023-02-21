@@ -12,7 +12,8 @@ module.exports = {
     theme: {
         extend: {
             backgroundImage: {
-                'hero': 'url(../images/bg-wisuda-26.jpg)'
+                'wisuda-26': 'url(../images/bg-wisuda-26.jpg)',
+                'wisuda-27': 'url(../images/bg-wisuda-27.jpg)',
             },
             fontFamily: {
                 sans: ['Nunito', ...defaultTheme.fontFamily.sans],
