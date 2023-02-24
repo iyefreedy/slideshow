@@ -62,7 +62,7 @@ document.addEventListener("keydown", function (event) {
         console.log("User typed: " + inputVal);
         const current = document.querySelector('.current');
 
-        const input = isFinite(inputVal);
+        const input = /^[0-9]/i.test(inputVal);
 
         if (input) {
             current.classList.remove('current');

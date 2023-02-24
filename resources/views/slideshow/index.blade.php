@@ -10,7 +10,7 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 
-<body class="font-body">
+<body>
     <div class="relative w-screen h-screen bg-wisuda-27 bg-cover bg-no-repeat flex justify-center items-center ">
         @foreach ($graduates as $graduate)
             <div
@@ -21,22 +21,22 @@
                             class="h-full w-full">
                     </div>
                     <div
-                        class="flex min-w-[32rem] max-w-lg flex-col justify-center py-2 px-4 bg-white border-4 border-yellow-400 rounded-md ">
-                        <div class="font-bold text-xl">{{ $graduate->nama }}</div>
-                        <div class="font-medium text-lg mb-2">{{ $graduate->nim }}</div>
-                        <div class="font-medium mb-2">
+                        class="flex min-w-[32rem] max-w-xl flex-col justify-center py-2 px-4 bg-white border-4 border-yellow-400 rounded-md ">
+                        <div class="font-bold text-2xl">{{ $graduate->nama }}</div>
+                        <div class="font-medium text-xl mb-2">{{ $graduate->nim }}</div>
+                        <div class="font-medium mb-2 text-lg">
                             {{ $graduate->department->id != 36 ? 'Judul Skripsi : ' . $graduate->judulSkripsi : 'Judul Tesis : ' . $graduate->judulSkripsi }}
                         </div>
-                        <ul class="list-disc list-inside">
+                        <ul class="list-disc list-outside px-4">
                             @foreach ($graduate->passStatements as $statement)
-                                <li class="font-bold text-lg">
+                                <li class="font-bold text-xl word-">
                                     {{ $statement->description }}
                                 </li>
                             @endforeach
                         </ul>
                     </div>
                 </div>
-                <div class="py-6 text-center font-bold text-xl bg-white rounded-md border-4 border-yellow-400">
+                <div class="py-6 text-center font-bold text-2xl bg-white rounded-md border-4 border-yellow-400">
                     <div class="">{{ __('Program Studi ') . $graduate->department->name }}</div>
                     <div class="">{{ $graduate->department->faculty->name }}</div>
                     <div class="">{{ $graduate->department->title }}</div>
