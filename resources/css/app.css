@@ -4,10 +4,10 @@
 
 @layer components {
     .slide {
-        @apply opacity-0;
+        @apply opacity-0 -z-10;
     }
 
     .slide.current {
-        @apply opacity-100;
+        @apply opacity-100 z-10;
     }
 }

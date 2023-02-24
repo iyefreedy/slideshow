@@ -10,6 +10,9 @@ module.exports = {
     ],
 
     theme: {
+        fontFamily: {
+            'body' : ['"Open Sans"',],
+        },
         extend: {
             backgroundImage: {
                 'wisuda-26': 'url(../images/bg-wisuda-26.jpg)',

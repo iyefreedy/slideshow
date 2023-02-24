@@ -1,5 +1,6 @@
 import './bootstrap';
 import './slider'
+// import './indexer'
 // import './table'
 // import './edit'
 

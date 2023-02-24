@@ -50,3 +50,25 @@ document.addEventListener('keydown', function (e) {
             break;
     }
 });
+
+var timeout = null;
+var inputVal = "";
+
+document.addEventListener("keydown", function (event) {
+    clearTimeout(timeout);
+    var keyPressed = event.key;
+    inputVal += keyPressed;
+    timeout = setTimeout(function () {
+        console.log("User typed: " + inputVal);
+        const current = document.querySelector('.current');
+
+        const input = isFinite(inputVal);
+
+        if (input) {
+            current.classList.remove('current');
+
+            slides[parseInt(inputVal)-1].classList.add('current')
+        }
+        inputVal = "";
+    }, 2000);
+});

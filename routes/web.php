@@ -3,6 +3,8 @@
 use App\Http\Controllers\FacultyController;
 use App\Http\Controllers\GraduateController;
 use App\Http\Controllers\ProfileController;
+use App\Models\Department;
+use App\Models\Graduate;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -21,6 +23,20 @@ Route::get('/', function () {
 });
 Route::get('/slideshow', 'App\Http\Controllers\SlideshowController@index');
 Route::get('/slideshow/{index}', 'App\Http\Controllers\SlideshowController@show');
+
+Route::get('test', function() {
+    $departments = Department::all();
+
+    foreach($departments as $department) {
+        $graduates = $department->graduates()->where('idWisuda', 27)->get();
+
+        for($i = 0; $i < count($graduates); $i++) {
+            $graduates[$i]->update(['sort' => $i + 1]);
+        }
+    }
+
+    dd($departments->toArray());
+});
 
 Route::get('/dashboard', function () {
     return view('dashboard');

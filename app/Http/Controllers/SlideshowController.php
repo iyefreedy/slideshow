@@ -10,7 +10,7 @@ class SlideshowController extends Controller
     //
     public function index()
     {
-        $graduates = Graduate::with(['department'])->where('idWisuda', 27)->get()->sortBy(function ($q) {
+        $graduates = Graduate::with(['department'])->where('idWisuda', 27)->where('attendance_confirmation', 0)->orderBy('sort')->get()->sortBy(function($q) {
             return $q->department->order_id;
         });
 

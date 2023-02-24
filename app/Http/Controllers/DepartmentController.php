@@ -12,7 +12,7 @@ class DepartmentController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index() : \Illuminate\Http\Response
+    public function index()
     {
         //
     }
@@ -44,7 +44,7 @@ class DepartmentController extends Controller
      * @param  \App\Models\Department  $department
      * @return \Illuminate\Http\Response
      */
-    public function show(Department $department) : \Illuminate\Http\Response
+    public function show(Department $department)
     {
         //
     }

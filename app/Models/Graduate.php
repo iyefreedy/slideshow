@@ -12,6 +12,14 @@ class Graduate extends Model
     use HasFactory;
 
     protected $table = 't_wisuda';
+    protected $primaryKey = 'nim';
+    public $timestamps = false;
+
+    protected $fillable = ['sort'];
+
+    protected $casts = [
+        'nim' => 'string'
+    ];
 
     public function getRouteKeyName()
     {
