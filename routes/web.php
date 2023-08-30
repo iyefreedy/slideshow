@@ -19,8 +19,8 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
-Route::get('/slideshow', 'App\Http\Controllers\SlideshowController@index');
-Route::get('/slideshow/{index}', 'App\Http\Controllers\SlideshowController@show');
+Route::get('/slideshow/{session?}', 'App\Http\Controllers\SlideshowController@index');
+// Route::get('/slideshow/{index}', 'App\Http\Controllers\SlideshowController@index');
 
 Route::get('/dashboard', function () {
     return view('dashboard');

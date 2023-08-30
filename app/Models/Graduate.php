@@ -25,7 +25,7 @@ class Graduate extends Model
 
     public function faculty()
     {
-        return $this->department->faculty();
+        return $this->hasOneThrough(Faculty::class, Department::class);
     }
 
     public function passStatements()
