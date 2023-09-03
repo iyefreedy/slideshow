@@ -22,7 +22,7 @@ class SlideshowController extends Controller
         }
 
         if ($session === '2') {
-            $graduates = $graduates->nth(1, 232);
+            $graduates = $graduates->nth(1, 231);
         }
 
         return view('slideshow.index', [

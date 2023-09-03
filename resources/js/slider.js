@@ -55,11 +55,14 @@ document.addEventListener("keydown", function (event) {
     inputVal += keyPressed;
     timeout = setTimeout(function () {
         console.log("User typed: " + inputVal);
+
         const current = document.querySelector(".current");
 
         const input = /^[0-9]/i.test(inputVal);
 
-        if (input) {
+
+        const isLengthOffside = Number.parseInt(inputVal) < 1 || Number.parseInt(inputVal) > slides.length
+        if (input && !isLengthOffside) {
             current.classList.remove("current");
 
             slides[parseInt(inputVal) - 1].classList.add("current");

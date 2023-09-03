@@ -304,12 +304,6 @@ class DatabaseSeeder extends Seeder
             'description' => 'Konsultan Hukum, Kenny Wiston Law Offices',
         ]);
 
-        // Best students
-        PassStatement::create([
-            'nim' => '0104519018',
-            'description' => 'Lulusan Terbaik Universitas'
-        ]);
-
         $nims = [
             "0104519018",
             "0104519019",
@@ -370,6 +364,12 @@ class DatabaseSeeder extends Seeder
             ]);
         }
 
+        // Best students
+        PassStatement::create([
+            'nim' => '0104519018',
+            'description' => 'Lulusan Terbaik Universitas'
+        ]);
+
         // High scores
         PassStatement::create([
             'nim' => '0106519044',
@@ -394,6 +394,31 @@ class DatabaseSeeder extends Seeder
         PassStatement::create([
             'nim' => '0802519192',
             'description' => 'IPK Tertinggi Fakultas Ilmu Sosial dan Ilmu Politik'
+        ]);
+
+        PassStatement::create([
+            'nim' => '0404519010',
+            'description' => 'Lulusan Terbaik Fakultas Ilmu Pengetahuan Budaya'
+        ]);
+        PassStatement::create([
+            'nim' => '0604519001',
+            'description' => 'Lulusan Terbaik Fakultas Psikologi dan Pendidikan'
+        ]);
+        PassStatement::create([
+            'nim' => '0711519006',
+            'description' => 'Lulusan Terbaik Fakultas Hukum'
+        ]);
+        PassStatement::create([
+            'nim' => '0301519053',
+            'description' => 'Lulusan Terbaik Fakultas Ekonomi dan Bisnis'
+        ]);
+        PassStatement::create([
+            'nim' => '0802519192',
+            'description' => 'Lulusan Terbaik Fakultas Ilmu Sosial dan Ilmu Politik'
+        ]);
+        PassStatement::create([
+            'nim' => '0104519018',
+            'description' => 'Lulusan Terbaik Fakultas Sains dan Teknologi'
         ]);
     }
 }

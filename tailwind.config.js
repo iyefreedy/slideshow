@@ -10,6 +10,7 @@ module.exports = {
     ],
 
     theme: {
+
         extend: {
             backgroundImage: {
                 "wisuda-26": "url(../images/bg-wisuda-26.jpg)",
