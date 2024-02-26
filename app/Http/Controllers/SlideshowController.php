@@ -8,22 +8,14 @@ use Illuminate\Http\Request;
 class SlideshowController extends Controller
 {
     //
-    public function index($session = null)
+    public function index()
     {
         $filters = [
-            'idWisuda' => 28,
+            'idWisuda' => 29,
             'stKeuangan' => 'system:valid'
         ];
 
         $graduates = Graduate::with(['department', 'passStatements'])->where($filters)->get()->sortBy(fn ($q) => $q->department->order_id);
-
-        if ($session === '1') {
-            $graduates = $graduates->nth(1, 0);
-        }
-
-        if ($session === '2') {
-            $graduates = $graduates->nth(1, 231);
-        }
 
         return view('slideshow.index', [
             'graduates' => $graduates->all()
