@@ -247,90 +247,112 @@ class DatabaseSeeder extends Seeder
             'nim' => '0702622002',
             'description' => 'PT. TOKYULAND INDONESIA'
         ]);
+
         PassStatement::create([
             'nim' => '0702622007',
             'description' => 'Mahkamah Agung Republik Indonesia',
         ]);
+
         PassStatement::create([
             'nim' => '0702622012',
             'description' => 'PT. TOKYULAND INDONESIA',
         ]);
+
         PassStatement::create([
             'nim' => '0702622019',
             'description' => 'Ombudsman Republik Indonesia',
         ]);
+
         PassStatement::create([
             'nim' => '0702622028',
             'description' => 'PT Hutama Karya (Persero)',
         ]);
+
         PassStatement::create([
             'nim' => '0702622029',
             'description' => 'Dewan Perwakilan Rakyat Republik Indonesia (DPR-RI)',
         ]);
+
         PassStatement::create([
             'nim' => '0702622039',
             'description' => 'Law Office Mardiansyah & Associates',
         ]);
+
         PassStatement::create([
             'nim' => '0702622044',
             'description' => 'Kementerian Agraria dan Tata Ruang/ Badan Pertanahan Nasional',
         ]);
+
         PassStatement::create([
             'nim' => '0702622048',
             'description' => 'Bimo & Partner Law Office',
         ]);
+
         PassStatement::create([
             'nim' => '0702622049',
             'description' => 'General Affair: Kenvue',
         ]);
+
         PassStatement::create([
             'nim' => '0702622050',
             'description' => 'Syamsul Hasibuan & Partners Law Firm: Konsultan Hukum',
         ]);
+
         PassStatement::create([
             'nim' => '0702622051',
             'description' => 'PT. PROTELINDO: Property Management',
         ]);
+
         PassStatement::create([
             'nim' => '0702622052',
             'description' => 'Jasa Hukum: PT Noesantara Gardapati',
         ]);
+
         PassStatement::create([
             'nim' => '0702622055',
             'description' => 'Syamsul Hasibuan & Partners Law Firm: Konsultan Hukum',
         ]);
+
         PassStatement::create([
             'nim' => '0702622061',
             'description' => 'Konsultan Hukum: MBS & Co. Law Firm',
         ]);
+
         PassStatement::create([
             'nim' => '0702622062',
             'description' => 'Kenny Wiston Law Offices: Law Firm, Contract Management, Legal Consultants',
         ]);
+
         PassStatement::create([
             'nim' => '0702622063',
             'description' => 'LEGAL CONSULTANT: PT JAMEX INDO VISATAMA',
         ]);
+
         PassStatement::create([
             'nim' => '0702622065',
             'description' => 'Haris Azhar Law Office: Advokat',
         ]);
+
         PassStatement::create([
             'nim' => '0702622066',
             'description' => 'Kementerian Agraria dan Tata Ruang/ Badan Pertanahan Nasional',
         ]);
+
         PassStatement::create([
             'nim' => '0702622067',
             'description' => 'DKPP RI: Legal Drafting (Pemilu)',
         ]);
+
         PassStatement::create([
             'nim' => '0702622071',
             'description' => 'BRIS & PARTNERS: Advokat',
         ]);
+
         PassStatement::create([
             'nim' => '0702622072',
             'description' => 'BRAWIJAYA HEALTHCARE GROUP',
         ]);
+
         PassStatement::create([
             'nim' => '0702622074',
             'description' => 'Konservasi Indonesia affiliated with Conservation International',
@@ -426,26 +448,10 @@ class DatabaseSeeder extends Seeder
             ]);
         }
 
-        // Best of the best
+        // Best students
         PassStatement::create([
-            'nim' => '0601520031',
+            'nim' => '0104519018',
             'description' => 'Lulusan Terbaik Universitas'
-        ]);
-        PassStatement::create([
-            'nim' => '0401520033',
-            'description' => 'IPK Tertinggi Universitas'
-        ]);
-        PassStatement::create([
-            'nim' => '0702622052',
-            'description' => 'Lulusan Terbaik & IPK Tertinggi Universitas'
-        ]);
-        PassStatement::create([
-            'nim' => '0702622052',
-            'description' => 'Lulusan Terbaik & IPK Tertinggi Fakultas Hukum'
-        ]);
-        PassStatement::create([
-            'nim' => '0803622014',
-            'description' => 'Lulusan Terbaik & IPK Tertinggi Fakultas Ilmu Sosial dan Ilmu Politik'
         ]);
 
         // // High scores
@@ -473,6 +479,10 @@ class DatabaseSeeder extends Seeder
             'nim' => '0802520131',
             'description' => 'IPK Tertinggi Fakultas Ilmu Sosial dan Ilmu Politik'
         ]);
+        PassStatement::create([
+            'nim' => '0702621002',
+            'description' => 'IPK Tertinggi Magister Ilmu Hukum'
+        ]);
 
         // Best students
         PassStatement::create([
@@ -498,6 +508,21 @@ class DatabaseSeeder extends Seeder
         PassStatement::create([
             'nim' => '0102520052',
             'description' => 'Lulusan Terbaik Fakultas Sains dan Teknologi'
+        ]);
+        PassStatement::create([
+            'nim' => '0702622020',
+            'description' => 'Lulusan Terbaik Magister Ilmu Hukum'
+        ]);
+
+        // Best students
+        PassStatement::create([
+            'nim' => '0104519010',
+            'description' => 'Lulusan Terbaik Universitas'
+        ]);
+
+        PassStatement::create([
+            'nim' => '0404520009',
+            'description' => 'IPK Tertinggi Universitas'
         ]);
     }
 }
