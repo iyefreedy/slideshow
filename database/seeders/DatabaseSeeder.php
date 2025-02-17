@@ -208,153 +208,215 @@ class DatabaseSeeder extends Seeder
 
         // Job achieved
         PassStatement::create([
-            'nim' => '0702618004',
-            'description' => 'Jasa Keuangan, PT Indo Koala Remmitance'
+            'nim' => '0702619007',
+            'description' => 'Kementerian Pekerjaan Umum dan Perumahan Rakyat'
         ]);
         PassStatement::create([
-            'nim' => '0702618041',
-            'description' => 'Pelayanan Hukum dan Litigasi, Direktorat Hak Cipta dan Desain Industry, Kementerian Hukum dan Hak Asasi Manusia, Republik Indonesia'
+            'nim' => '0702619015',
+            'description' => 'PT Boopin Communications Indonesia'
         ]);
         PassStatement::create([
-            'nim' => '0702619001',
-            'description' => 'Bidang Pertanahan, Kementerian Agraria dan Tata Ruang/Badan Pertanahan Nasional, Republik Indonesia'
+            'nim' => '0702619040',
+            'description' => 'Kementerian Agraria dan Tata Ruang/ Badan Pertanahan Nasional'
         ]);
         PassStatement::create([
-            'nim' => '0702619008',
-            'description' => 'Bidang Konsultan Pajak, PT. Bagoes Global Konsultindo'
+            'nim' => '0702620024',
+            'description' => 'The Candidate Center'
         ]);
         PassStatement::create([
-            'nim' => '0702619014',
-            'description' => 'Bidang Agraria/Pertanahan, Kementerian Agraria dan Tata Ruang/Badan Pertanahan Nasional, Republik Indonesia'
+            'nim' => '0702620036',
+            'description' => 'Kementerian Agraria dan Tata Ruang/Badan Pertanahan Nasional'
         ]);
         PassStatement::create([
-            'nim' => '0702620031',
-            'description' => 'Cumlaude'
+            'nim' => '0702621008',
+            'description' => 'Badan Pengawas Pemilihan Umum Provinsi DKI Jakarta'
         ]);
         PassStatement::create([
-            'nim' => '0702620031',
-            'description' => 'Penyelenggara Pemilihan Umum, Badan Pengawas Pemilihan Umum, Kota Depok'
+            'nim' => '0702621038',
+            'description' => 'PT Hutama Karya (Persero)'
         ]);
         PassStatement::create([
-            'nim' => '0702621013',
-            'description' => 'Bidang Pengadaan, Yayasan Pesantren Islam Al-Azhar'
+            'nim' => '0702621040',
+            'description' => 'PT Hutama Karya (Persero)'
         ]);
         PassStatement::create([
-            'nim' => '0702621024',
-            'description' => 'Cumlaude'
+            'nim' => '0702621049',
+            'description' => 'PT Bursa Efek Indonesia'
         ]);
         PassStatement::create([
-            'nim' => '0702621024',
-            'description' => 'Penyidik Badan Reserse Kriminal, Kepolisian Negara Republik Indonesia'
+            'nim' => '0702622002',
+            'description' => 'PT. TOKYULAND INDONESIA'
         ]);
         PassStatement::create([
-            'nim' => '0702621029',
-            'description' => 'Cumlaude',
+            'nim' => '0702622007',
+            'description' => 'Mahkamah Agung Republik Indonesia',
         ]);
         PassStatement::create([
-            'nim' => '0702621029',
-            'description' => 'IPK Tertinggi Magister Ilmu Hukum',
+            'nim' => '0702622012',
+            'description' => 'PT. TOKYULAND INDONESIA',
         ]);
         PassStatement::create([
-            'nim' => '0702621029',
-            'description' => 'Bidang Kontraktor Konstruksi dan Badan Usaha Jalan Tol PT Hutama Karya (Persero)',
+            'nim' => '0702622019',
+            'description' => 'Ombudsman Republik Indonesia',
         ]);
         PassStatement::create([
-            'nim' => '0702621035',
-            'description' => 'Cumlaude',
+            'nim' => '0702622028',
+            'description' => 'PT Hutama Karya (Persero)',
         ]);
         PassStatement::create([
-            'nim' => '0702621035',
-            'description' => 'Advokat Firma Hukum Ercolaw',
+            'nim' => '0702622029',
+            'description' => 'Dewan Perwakilan Rakyat Republik Indonesia (DPR-RI)',
         ]);
         PassStatement::create([
-            'nim' => '0702621036',
-            'description' => 'Perbankan, PT Bank Mandiri (Persero) Tbk',
+            'nim' => '0702622039',
+            'description' => 'Law Office Mardiansyah & Associates',
         ]);
         PassStatement::create([
-            'nim' => '0702621043',
-            'description' => 'Cumlaude',
+            'nim' => '0702622044',
+            'description' => 'Kementerian Agraria dan Tata Ruang/ Badan Pertanahan Nasional',
         ]);
         PassStatement::create([
-            'nim' => '0702621043',
-            'description' => 'Yayasan Pendidikan Islam Ziyadatul Hasanaat',
+            'nim' => '0702622048',
+            'description' => 'Bimo & Partner Law Office',
         ]);
         PassStatement::create([
-            'nim' => '0702621044',
-            'description' => 'Cumlaude',
+            'nim' => '0702622049',
+            'description' => 'General Affair: Kenvue',
         ]);
         PassStatement::create([
-            'nim' => '0702621044',
-            'description' => 'Bidang Finance, PT Hutama Karya (Persero)',
+            'nim' => '0702622050',
+            'description' => 'Syamsul Hasibuan & Partners Law Firm: Konsultan Hukum',
         ]);
         PassStatement::create([
-            'nim' => '0702621047',
-            'description' => 'Cumlaude',
+            'nim' => '0702622051',
+            'description' => 'PT. PROTELINDO: Property Management',
         ]);
         PassStatement::create([
-            'nim' => '0702621047',
-            'description' => 'Bidang Legal, PT Hutama Karya (Persero)',
+            'nim' => '0702622052',
+            'description' => 'Jasa Hukum: PT Noesantara Gardapati',
         ]);
         PassStatement::create([
-            'nim' => '0702621053',
-            'description' => 'Cumlaude',
+            'nim' => '0702622055',
+            'description' => 'Syamsul Hasibuan & Partners Law Firm: Konsultan Hukum',
         ]);
         PassStatement::create([
-            'nim' => '0702621053',
-            'description' => 'Konsultan Hukum, Kenny Wiston Law Offices',
+            'nim' => '0702622061',
+            'description' => 'Konsultan Hukum: MBS & Co. Law Firm',
+        ]);
+        PassStatement::create([
+            'nim' => '0702622062',
+            'description' => 'Kenny Wiston Law Offices: Law Firm, Contract Management, Legal Consultants',
+        ]);
+        PassStatement::create([
+            'nim' => '0702622063',
+            'description' => 'LEGAL CONSULTANT: PT JAMEX INDO VISATAMA',
+        ]);
+        PassStatement::create([
+            'nim' => '0702622065',
+            'description' => 'Haris Azhar Law Office: Advokat',
+        ]);
+        PassStatement::create([
+            'nim' => '0702622066',
+            'description' => 'Kementerian Agraria dan Tata Ruang/ Badan Pertanahan Nasional',
+        ]);
+        PassStatement::create([
+            'nim' => '0702622067',
+            'description' => 'DKPP RI: Legal Drafting (Pemilu)',
+        ]);
+        PassStatement::create([
+            'nim' => '0702622071',
+            'description' => 'BRIS & PARTNERS: Advokat',
+        ]);
+        PassStatement::create([
+            'nim' => '0702622072',
+            'description' => 'BRAWIJAYA HEALTHCARE GROUP',
+        ]);
+        PassStatement::create([
+            'nim' => '0702622074',
+            'description' => 'Konservasi Indonesia affiliated with Conservation International',
         ]);
 
         $nims = [
-            "0104519018",
-            "0104519019",
-            "0105519002",
-            "0105519010",
-            "0106519044",
-            "0301519002",
-            "0301519015",
-            "0301519035",
-            "0301519053",
-            "0301519059",
-            "0311518317",
-            "0311519011",
-            "0302519005",
-            "0302519013",
-            "0302519014",
-            "0302519015",
-            "0302519027",
-            "0312518150",
-            "0312519012",
-            "0312519029",
-            "0312519030",
-            "0401519040",
-            "0403519024",
-            "0403519027",
-            "0403519050",
-            "0403519062",
-            "0403519064",
-            "0403519068",
-            "0404519001",
-            "0404519003",
-            "0404519004",
-            "0404519009",
-            "0404519010",
-            "0404519012",
-            "0404519014",
-            "0404519017",
-            "0404519019",
-            "0404519024",
-            "0602519022",
-            "0602519075",
-            "0603518055",
-            "0604519001",
-            "0711518245",
-            "0711519006",
-            "0711519036",
-            "0711519037",
-            "0711519114",
-            "0802519016",
-            "0802519047",
-            "0802519192"
+            '0702621040',
+            '0702622002',
+            '0702622007',
+            '0702622028',
+            '0702622029',
+            '0702622044',
+            '0702622048',
+            '0702622049',
+            '0702622050',
+            '0702622051',
+            '0702622061',
+            '0702622062',
+            '0702622063',
+            '0702622065',
+            '0702622066',
+            '0702622067',
+            '0702622071',
+            '0702622072',
+            '0702622073',
+            '0702622074',
+            '0803622014',
+            '0102520027',
+            '0102520044',
+            '0102520052',
+            '0102520053',
+            '0105520001',
+            '0105520002',
+            '0106520023',
+            '0106520030',
+            '0301520022',
+            '0311520119',
+            '0302520008',
+            '0302520016',
+            '0401520005',
+            '0401520015',
+            '0401520029',
+            '0401520040',
+            '0401520058',
+            '0401520071',
+            '0403520023',
+            '0403520028',
+            '0403520029',
+            '0403520032',
+            '0404520016',
+            '0404520023',
+            '0404520029',
+            '0601520031',
+            '0602520008',
+            '0602520009',
+            '0602520039',
+            '0602520047',
+            '0602520053',
+            '0602520069',
+            '0604520009',
+            '0701520028',
+            '0701520035',
+            '0701520044',
+            '0701520052',
+            '0701520056',
+            '0701520064',
+            '0701520079',
+            '0711520025',
+            '0711520058',
+            '0711520060',
+            '0711520076',
+            '0401520033',
+            '0601518013',
+            '0711520078',
+            '0711520079',
+            '0711520100',
+            '0711520102',
+            '0711520123',
+            '0802520011',
+            '0802520087',
+            '0802520128',
+            '0802520131',
+            '0802520201',
+            '0802520202',
+            '0802520213',
+            '0802520222',
         ];
 
         foreach ($nims as $nim) {
@@ -364,60 +426,77 @@ class DatabaseSeeder extends Seeder
             ]);
         }
 
-        // Best students
+        // Best of the best
         PassStatement::create([
-            'nim' => '0104519018',
+            'nim' => '0601520031',
             'description' => 'Lulusan Terbaik Universitas'
         ]);
-
-        // High scores
         PassStatement::create([
-            'nim' => '0106519044',
+            'nim' => '0401520033',
+            'description' => 'IPK Tertinggi Universitas'
+        ]);
+        PassStatement::create([
+            'nim' => '0702622052',
+            'description' => 'Lulusan Terbaik & IPK Tertinggi Universitas'
+        ]);
+        PassStatement::create([
+            'nim' => '0702622052',
+            'description' => 'Lulusan Terbaik & IPK Tertinggi Fakultas Hukum'
+        ]);
+        PassStatement::create([
+            'nim' => '0803622014',
+            'description' => 'Lulusan Terbaik & IPK Tertinggi Fakultas Ilmu Sosial dan Ilmu Politik'
+        ]);
+
+        // // High scores
+        PassStatement::create([
+            'nim' => '0105520002',
             'description' => 'IPK Tertinggi Fakultas Sains dan Teknologi'
         ]);
         PassStatement::create([
-            'nim' => '0301519053',
+            'nim' => '0301520022',
             'description' => 'IPK Tertinggi Fakultas Ekonomi dan Bisnis'
         ]);
         PassStatement::create([
-            'nim' => '0404519010',
+            'nim' => '0401520033',
             'description' => 'IPK Tertinggi Fakultas Ilmu Pengetahuan Budaya'
         ]);
         PassStatement::create([
-            'nim' => '0602519022',
+            'nim' => '0601518013',
             'description' => 'IPK Tertinggi Fakultas Psikologi dan Pendidikan'
         ]);
         PassStatement::create([
-            'nim' => '0711519006',
+            'nim' => '0711520078',
             'description' => 'IPK Tertinggi Fakultas Hukum'
         ]);
         PassStatement::create([
-            'nim' => '0802519192',
+            'nim' => '0802520131',
             'description' => 'IPK Tertinggi Fakultas Ilmu Sosial dan Ilmu Politik'
         ]);
 
+        // Best students
         PassStatement::create([
-            'nim' => '0404519010',
+            'nim' => '0404520023',
             'description' => 'Lulusan Terbaik Fakultas Ilmu Pengetahuan Budaya'
         ]);
         PassStatement::create([
-            'nim' => '0604519001',
+            'nim' => '0601520031',
             'description' => 'Lulusan Terbaik Fakultas Psikologi dan Pendidikan'
         ]);
         PassStatement::create([
-            'nim' => '0711519006',
+            'nim' => '0711520079',
             'description' => 'Lulusan Terbaik Fakultas Hukum'
         ]);
         PassStatement::create([
-            'nim' => '0301519053',
+            'nim' => '0301520022',
             'description' => 'Lulusan Terbaik Fakultas Ekonomi dan Bisnis'
         ]);
         PassStatement::create([
-            'nim' => '0802519192',
+            'nim' => '0802520128',
             'description' => 'Lulusan Terbaik Fakultas Ilmu Sosial dan Ilmu Politik'
         ]);
         PassStatement::create([
-            'nim' => '0104519018',
+            'nim' => '0102520052',
             'description' => 'Lulusan Terbaik Fakultas Sains dan Teknologi'
         ]);
     }
